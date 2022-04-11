@@ -1,5 +1,17 @@
-@import './utils/variables.scss';
+@import './utils/variables';
+
+@import './utils/reset';
+@import './utils/common';
+@import './utils/hidden';
 
 @import './components/header';
 @import './components/hero';
+@import './components/about';
+@import './components/hom';
+@import './components/men';
+@import './components/client';
+@import './components/footer';
+@import './components/current';
+@import './components/art';
+@import './components/backdrop';
 

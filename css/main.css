@@ -61,6 +61,15 @@ img {
   margin: 0 auto;
 }
 
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -86,7 +95,7 @@ img {
   display: flex;
 }
 
-.header-container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,17 +108,11 @@ img {
   margin-left: auto;
 }
 
-.span-logo {
+.logo_blac {
   color: #212121;
 }
 
-.header-logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.91;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+.header__logo {
   margin-right: 93px;
 }
 
@@ -502,7 +505,7 @@ img {
   margin-right: 30px;
 }
 
-.spani-logo {
+.logo_white {
   color: #f5f4fa;
 }
 
@@ -547,15 +550,6 @@ img {
 
 .footer-list li:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer-logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
 }
 
 address {

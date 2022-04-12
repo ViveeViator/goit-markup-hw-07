@@ -1,23 +1,31 @@
 .list {
-    list-style: none;
-  }
-  .link {
-    text-decoration: none;
-  }
-  .btn-pointer {
-    cursor: pointer;
-  }
-  .foot-pointer {
-    cursor: default;
-  }
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  
-  .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-  }
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.btn-pointer {
+  cursor: pointer;
+}
+.foot-pointer {
+  cursor: default;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}

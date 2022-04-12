@@ -6,7 +6,7 @@
 .header-list {
   display: flex;
 }
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -14,18 +14,12 @@
   margin-left: auto;
 }
 
-.span-logo {
+.logo_blac {
   color: #212121;
 }
 
-.header-logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.91;
-  letter-spacing: 0.03em;
 
-  color: #2196f3;
+.header__logo {
   margin-right: 93px;
 }
 .header-item:not(:last-child) {
@@ -96,13 +90,3 @@
     color: var(--accent-color);
   }
 }
-
-
-  
-  // .header-link:hover .header-mail,
-  // .header-link:focus .header-mail {
-  //   fill: var(--accent-color);
-  // }
-  
-
-  

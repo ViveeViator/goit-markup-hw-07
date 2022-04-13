@@ -1,8 +1,8 @@
-.hom {
+.work {
 padding-top: 0px;
 }
 
-.hom-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -12,17 +12,17 @@ padding-top: 0px;
   color: var(--header-color);
   margin-bottom: 50px;
 }
-.hom-list {
+.work__list {
   display: flex;
   margin: -15px;
 }
 
-.hom-item {
+.work__item {
   flex-basis: calc(100% / 3 - 30px);
   margin: 15px;
   position: relative;
 }
-.hom-text {
+.work__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

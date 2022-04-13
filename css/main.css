@@ -700,13 +700,7 @@ address {
   margin-left: 10px;
 }
 
-.art {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  color: var(--one-title-color);
-}
-
-.art-list {
+.filter__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -716,11 +710,11 @@ address {
   margin-bottom: 50px;
 }
 
-.art-list li:not(:last-child) {
+.filter__list li:not(:last-child) {
   margin-right: 8px;
 }
 
-.art-btn {
+.filter__btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -740,14 +734,14 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.art-btn:hover, .art-btn:focus {
+.filter__btn:hover, .filter__btn:focus {
   background-color: var(--accent-color);
   color: var(--one-title-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.art-text {
+.card__text {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -756,14 +750,14 @@ address {
   margin-bottom: 4px;
 }
 
-.art-after-text {
+.card__after-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-.art-container {
+.card__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -772,7 +766,7 @@ address {
           align-items: center;
 }
 
-.carte-list {
+.card__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -782,46 +776,46 @@ address {
   margin-top: -30px;
 }
 
-.carte-thumb {
-  width: 370px;
-  position: relative;
-  overflow: hidden;
-}
-
-.carte-item {
-  width: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.carte-item :hover .art-text-to {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
-.carte-item :focus .art-text-to {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
-.carte-info {
-  border: 1px solid #eeeeee;
-  border-top: none;
-  padding: 20px 24px;
-}
-
-.carte-link {
+.card__link {
   display: block;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.carte-link:hover, .carte-link:focus {
+.card__link:hover, .card__link:focus {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.art-text-to {
+.card__thumb {
+  width: 370px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card__item {
+  width: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card__item :hover .card__text-to {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.card__item :focus .card__text-to {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.card__info {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px 24px;
+}
+
+.card__text-to {
   position: absolute;
   top: 0;
   left: 0;

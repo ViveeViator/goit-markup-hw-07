@@ -76,7 +76,7 @@ margin-bottom: 30px;
   &:focus {
     border-color: var(--accent-color);
   }
-  &:focus + .input-icon {
+  &:focus + .input__icon {
     fill: var(--accent-color);
   }
 }
@@ -154,26 +154,6 @@ color: var(--footer-color);
 .form__button { 
   display: flex;
   justify-content: center;
-}
-.submit__btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  min-width: 200px;
-  min-height: 50px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-&:hover,
-&:focus {
-  background-color:#188ce8;
-}
 }
 
 .form__check {
